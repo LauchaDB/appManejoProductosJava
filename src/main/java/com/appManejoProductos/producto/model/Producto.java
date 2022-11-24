@@ -19,6 +19,9 @@ public class Producto {
     @Column(name = "description_prod")
     private String descriptionProd;
 
+    @Column(name="cod_prod")
+    private int codProd;
+
     @Column(name = "precio_prod")
     private double precioProd;
 
@@ -55,5 +58,13 @@ public class Producto {
 
     public void setPrecioProd(double precioProd) {
         this.precioProd = precioProd;
+    }
+
+    public int getCodProd() {
+        return codProd;
+    }
+
+    public void setCodProd(int codProd) {
+        this.codProd = codProd;
     }
 }

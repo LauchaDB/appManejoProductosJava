@@ -14,6 +14,5 @@ public interface ProductoService {
      List<Producto> findAll();
      List<Producto> findAllByEmailUser(String email);
      Producto findAllById(int id);
-     void edit(Producto producto);
 
 }

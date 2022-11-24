@@ -45,8 +45,4 @@ public class ProductoServiceImp implements ProductoService {
         return optionalProducto.isEmpty() ? null : optionalProducto.get();
     }
 
-    @Override
-    public void edit(Producto producto) {
-        //productoRepository.editProducto(producto);
-    }
 }
